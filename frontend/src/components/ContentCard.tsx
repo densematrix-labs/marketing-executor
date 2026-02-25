@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Copy, Check } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -9,7 +8,6 @@ interface ContentCardProps {
 }
 
 export default function ContentCard({ content, label }: ContentCardProps) {
-  const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Terminal, Rocket, Twitter, Linkedin, MessageCircle, Mail, CheckSquare, Globe, Copy, Check, AlertCircle, Loader2 } from 'lucide-react';
+import { Terminal, Rocket, Twitter, Linkedin, MessageCircle, Mail, CheckSquare, AlertCircle, Loader2 } from 'lucide-react';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import ContentCard from './components/ContentCard';
 import { generateMarketingContent, MarketingContent } from './lib/api';

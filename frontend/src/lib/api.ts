@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || '/api';
+const API_URL = (import.meta as { env: { VITE_API_URL?: string } }).env.VITE_API_URL || '/api';
 
 export interface ProductInput {
   product_name: string;
